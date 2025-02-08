@@ -1,5 +1,5 @@
-import { Client } from '@elizaos/core';
+import { Plugin } from '@elizaos/core';
 
-declare const InstagramClientInterface: Client;
+declare const instagramPlugin: Plugin;
 
-export { InstagramClientInterface, InstagramClientInterface as default };
+export { instagramPlugin as default };
