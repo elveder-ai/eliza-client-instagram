@@ -11,6 +11,7 @@ export default defineConfig({
         "fs",
         "path",
         "instagram-private-api",
+        "@elizaos/core",
         // Add other externals as needed
     ],
 });
