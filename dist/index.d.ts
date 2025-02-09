@@ -1,5 +1,7 @@
-import { Plugin } from '@elizaos/core';
-
-declare const instagramPlugin: Plugin;
+declare const instagramPlugin: {
+    name: string;
+    description: string;
+    clients: Client[];
+};
 
 export { instagramPlugin as default };

@@ -1,4 +1,4 @@
-// src/index.ts
+// src/client.ts
 import { elizaLogger as elizaLogger6 } from "@elizaos/core";
 
 // src/environment.ts
@@ -4879,7 +4879,7 @@ var InstagramPostService = class {
   }
 };
 
-// src/index.ts
+// src/client.ts
 var InstagramClientInterface = {
   name: "instagram",
   async start(runtime) {
@@ -4917,6 +4917,8 @@ var InstagramClientInterface = {
     }
   }
 };
+
+// src/index.ts
 var instagramPlugin = {
   name: "instagram",
   description: "Instagram client plugin",
